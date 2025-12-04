@@ -1,0 +1,4 @@
+main {
+  flex: 1 0 auto !important;
+  padding-top: 100px; /* header 높이에 맞춰 조절 */
+}

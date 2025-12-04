@@ -1,0 +1,48 @@
+.header {
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eee;
+  z-index: 1000;
+}
+
+/* 메인 타이틀 */
+.header_Title {
+  background: none;
+  border: none;
+  font-size: 26px;
+  font-weight: bold;
+  outline: none;
+}
+.header_Title:focus,
+.header_Title:active {
+  outline: none;
+  border: none;
+}
+
+/* 네비게이션 */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding-right: 30px;
+  display: flex;
+  gap: 25px; 
+}
+
+/* 메뉴 링크 */
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* 메뉴 호버 */
+.navbar a:hover {
+  opacity: 0.6;
+}
